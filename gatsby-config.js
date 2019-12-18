@@ -1,9 +1,22 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+require("dotenv").config({
+
+path: `.env.${process.env.NODE_ENV}`,
+
+})
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Jo King & Co',
+    author: 'Zac Dobbs'
+  },
+  plugins: [
+    `gatsby-plugin-sass`,
+     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'src',
+         path: `${__dirname}/src/`
+      }
+    }
+  ]
 }
