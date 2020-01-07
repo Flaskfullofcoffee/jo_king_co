@@ -6,7 +6,7 @@
   flex-direction: column;
   text-align: center;
   position: relative;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-color: cornflowerblue;
   border-bottom-left-radius: 80% 10%;
@@ -23,18 +23,18 @@
     }
   }
   .illustration {
-    display: none;
+    // display: none;
     position: absolute;
     // background: yellow;
     z-index: 9;
     width: 80%;
-    top: 66vh;
-    left: -22vh;
+    top: 42vh;
+    left: -18vh;
     .object {
       background-image: url('../images/order.png');
       background-size: contain;
       background-repeat: no-repeat;
-      height: 50vh;
+      height: 55vh;
       margin-bottom: 5vh;
       // width: auto;
       position: relative;

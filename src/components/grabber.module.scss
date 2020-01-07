@@ -7,6 +7,7 @@
   width: auto;
   background: crimson;
   margin-top: -6vh;
+  padding-bottom: 2.5vh;
   .header, .btns {
     position: relative;
     top: 5vh;
@@ -23,10 +24,10 @@
     width: 100%;
     .link {
       margin: -1vh 1.5vw 0;
-      padding: 1% 1.5%;
+      padding: 1% 2%;
       border-radius: 5vw;
       border-style: none;
-      font-size: 2.25vw;
+      font-size: 2vw;
     }
   }
 }
