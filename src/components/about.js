@@ -8,7 +8,9 @@ const About = () => {
       <div className={aboutStyles.leftContent}>
         <h2 className={aboutStyles.title}>What I Do?</h2>
         <div className={aboutStyles.tiltedBox}>
-          <div className={aboutStyles.illustration}></div>
+          <div className={aboutStyles.illustration}>
+            <div className={aboutStyles.object}></div>
+          </div>
         </div>
       </div>
       <div className={aboutStyles.rightContent}>

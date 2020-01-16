@@ -23,20 +23,39 @@
 .leftContent {
   .title {
     position: relative;
+    top: 2.5vh;
+    left: 2vw;
     z-index: 3;
     font-size: 3.25vw;
   }
   .tiltedBox {
-    transform: rotate(40deg);
+    transform: rotate(35deg);
     background-color: crimson;
-    min-height: 65%;
+    height: auto;
     width: 50%;
-    left: -14%;
-    top: 92%;
+    left: -26vh;
+    top: 91.5%;
     position: absolute;
     overflow: hidden;
     border-radius: 1.25vw;
     padding-left: 8vh;
+    .illustration {
+      position: relative;
+      z-index: 9;
+      height: auto;
+      width: 100%;
+      top: 2.5vh;
+      left: 25%;
+      transform: rotate(-35deg);
+      .object {
+        background-image: url('../images/order.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 55vh;
+        margin-bottom: 5vh;
+        position: relative;
+      }
+    }
   }
 }
 
