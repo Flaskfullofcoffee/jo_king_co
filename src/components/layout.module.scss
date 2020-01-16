@@ -1,5 +1,4 @@
-.container {
-  background-color: #192738; /* Use for the landing page & add image of succulant instead of background color */
-  height: 100vh;
-  z-index: 9;
+.introContent {
+  display: flex;
+  flex-direction: row;
 }
