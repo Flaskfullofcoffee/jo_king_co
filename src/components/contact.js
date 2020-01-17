@@ -24,7 +24,10 @@ const Contact = () => {
             <label for="comments" className={contactStyles.message}>Message:</label>
             <textarea name="comments" id="comments" cols="30" rows="10" className={contactStyles.input_field}></textarea>
           </div>
-          <button id="submit" type="submit" className={contactStyles.submit_btn}>Submit</button>
+          <div className={contactStyles.btnField}>
+            <div class="g-recaptcha" id="rcaptcha"  data-sitekey="site key"></div>
+            <button id="submit" type="submit" className={contactStyles.submit_btn}>Submit</button>
+          </div>
         </form>
       </div>
     </div>
