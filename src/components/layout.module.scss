@@ -1,4 +1,13 @@
 .introContent {
   display: flex;
   flex-direction: row;
+  height: 100vh;
+}
+
+/* Media-queries Section */
+
+@media (max-width: 991.98px) {
+  .introContent {
+    // height: vh;
+  }
 }

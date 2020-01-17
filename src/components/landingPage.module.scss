@@ -1,7 +1,6 @@
 .container {
-  background:
-  aquamarine;
-  height: 100vh;
+  background: aquamarine;
+  height: 100%;
   width: 75%;
   z-index: 9;
   left: 0%;
@@ -28,6 +27,21 @@
       border-radius: 2vw;
       border-style: none;
       font-size: 2.25vw;
+    }
+  }
+}
+
+
+/* Media-queries Section */
+
+@media (max-width: 575.98px) {
+  .container {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    .grabber {
+      width: 45%;
+      left: 48vw;
     }
   }
 }
