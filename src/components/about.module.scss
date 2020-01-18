@@ -92,8 +92,47 @@
 
 /* Media-queries Section */
 
-@media (max-width: 991.98px) {
+@media (max-width: 575.98px) {
   .container {
-    // height: 80vh;
+    flex-direction: column;
+    position: relative;
+    .leftContent, .rightContent {
+      height: 50%;
+      width: 100vw;
+    }
+    .leftContent {
+      position: relative;
+      overflow: hidden;
+      .title {
+        left: 72vw;
+        font-size: 1.25rem;
+      }
+      .tiltedBox {
+        top: -25vh;
+        left: 55vw;
+        transform: rotate(38deg);
+      }
+    }
+    .rightContent {
+
+      .content {
+        position: absolute;
+        top: 35vh;
+        left: 40vw;
+        width: 45vw;
+        border-radius: 2vw;
+        margin-top: 2.5vh;
+        .title {
+          font-size: 1.25rem;
+        }
+        .subtext {
+          font-size: .85rem;
+        }
+        .link {
+          border-radius: 2.75vw;
+          font-size: .95rem;
+        }
+      }
+    }
   }
 }
