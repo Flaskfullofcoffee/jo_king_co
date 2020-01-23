@@ -28,6 +28,8 @@ const Contact = () => {
             <div class="g-recaptcha" id="rcaptcha"  data-sitekey="site key"></div>
             <button id="submit" type="submit" className={contactStyles.submit_btn}>Submit</button>
           </div>
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
         </form>
       </div>
     </div>
