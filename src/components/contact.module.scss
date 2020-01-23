@@ -4,14 +4,14 @@
   background: aquamarine;
   display: flex;
   flex-direction: row;
-  .img {
+  .img, .formWrapper {
     height: 100%;
     width: 50%;
+  }
+  .img {
     background-color: cadetblue;
   }
   .formWrapper {
-    height: 100%;
-    width: 50%;
     background-color: indigo;
     display: flex;
     flex-direction: row;
@@ -71,6 +71,24 @@
           border-radius: .5vw;
         }
       }
+    }
+  }
+}
+
+
+/* Media-queries Section */
+
+@media (max-width: 575.98px) {
+  .container {
+    flex-direction: column;
+    .img, .formWrapper {
+      width: 100%;
+    }
+    .img {
+      height: 25%;
+    }
+    .formWrapper {
+      height: 75%;
     }
   }
 }

@@ -7,7 +7,7 @@ const Contact = () => {
     <div className={contactStyles.container}>
       <div className={contactStyles.img} />
       <div className={contactStyles.formWrapper}>
-        <form className={contactStyles.form} action="" id="contactMe" method="post">
+        <form className={contactStyles.form} name="contact" action="" id="contactMe" method="POST" data-netlify="true">
           <h2 className={contactStyles.title}>Contact Me</h2>
           <div className={contactStyles.who}>
             <div>
