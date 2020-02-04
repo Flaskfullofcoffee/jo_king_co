@@ -48,12 +48,15 @@
       left: 25%;
       transform: rotate(-35deg);
       .object {
-        background-image: url('../images/order.png');
+        background-image: url('../images/8.svg');
         background-size: contain;
         background-repeat: no-repeat;
         height: 55vh;
         margin-bottom: 5vh;
         position: relative;
+        width: 65%;
+        top: 4.5vh;
+        left: 6.5vw;
       }
     }
   }

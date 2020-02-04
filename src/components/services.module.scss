@@ -13,7 +13,7 @@
   border-bottom-right-radius: 80% 10%;
 
   .header {
-    margin-top: 5vh;
+    margin-top: -5vh;
     .title {
       margin-bottom: 1.5vh;
       font-size: 2.75vw;
@@ -28,14 +28,15 @@
     position: absolute;
     // background: yellow;
     z-index: 9;
-    width: 80%;
-    top: 42vh;
-    left: -18vh;
+    width: 100%;
+    top: 20vh;
+    left: -8vh;
     .object {
-      background-image: url('../images/order.png');
+      background-image: url('../images/pleasework.svg');
       background-size: contain;
       background-repeat: no-repeat;
-      height: 55vh;
+      height: 70vh;
+      width: auto;
       margin-bottom: 5vh;
       // width: auto;
       position: relative;
