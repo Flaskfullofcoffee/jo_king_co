@@ -5,7 +5,6 @@
 .container {
   height: 80vh;
   width: auto;
-  background: tomato;
   display: flex;
   flex-wrap: wrap;
   .leftContent, .rightContent {
@@ -13,10 +12,10 @@
     width: 50%;
   }
   .leftContent {
-    background-color: teal;
+    // background-color: teal;
   }
   .rightContent {
-    background-color: indigo;
+    // background-color: indigo;
   }
 }
 
@@ -73,7 +72,6 @@
   display: flex;
   flex-direction: column;
   .content {
-    background: blue;
     align-self: center;
     width: 60%;
     height: auto;
@@ -83,18 +81,22 @@
       font-size: 3.25vw;
       letter-spacing: 1.5px;
       margin-bottom: 2.5vh;
+      color: #192738;
     }
     .subtext {
       font-family: 'Montserrat Alternates', sans-serif;
       font-size: 1.5vw;
+      color: #192738;
     }
     .link {
-      margin-top: 5vh;
+      margin-top: 2.5vh;
       padding: 2% 4%;
       border-radius: 2vw;
       border-style: none;
       font-family: 'Montserrat Alternates', sans-serif;
       font-size: 2.25vw;
+      color: #fff;
+      background-color: #192738;
     }
   }
 }

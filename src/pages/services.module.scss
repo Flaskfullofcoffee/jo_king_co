@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat+Alternates&display=swap');
+
 /* BOTTOM CONTENT STYLES */
 
 .container {
@@ -6,22 +8,42 @@
   flex-direction: column;
   text-align: center;
   position: relative;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
-  background-color: cornflowerblue;
+  background: linear-gradient(180deg, rgba(255,255,255,1), rgba(204,39,73,1) 100%);
   border-bottom-left-radius: 80% 10%;
   border-bottom-right-radius: 80% 10%;
 
   .header {
     margin-top: -5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .title {
       margin-bottom: 1.5vh;
+      width: 22vw;
+      background: #fff;
+      font-family: 'Lobster', cursive;
       font-size: 2.75vw;
+      color: #192738;
+      z-index: 9;
     }
     .subtext {
       padding: 0 25vh;
+      font-family: 'Montserrat Alternates', sans-serif;
       font-size: 1.5vw;
+      color: #192738;
     }
+  }
+  .detail {
+    height: 2px;
+    background-color: #192738;
+    border: 0;
+    position: relative;
+    top: -13.5vh;
+    z-index: 8;
+    width: 88%;
+    text-align: center;
   }
   .illustration {
     // display: none;
@@ -29,13 +51,14 @@
     // background: yellow;
     z-index: 9;
     width: 100%;
-    top: 20vh;
+    top: 22vh;
     left: -8vh;
     .object {
       background-image: url('../images/pleasework.svg');
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
-      height: 70vh;
+      background-position: 20% 50%;
+      height: 80vh;
       width: auto;
       margin-bottom: 5vh;
       // width: auto;
