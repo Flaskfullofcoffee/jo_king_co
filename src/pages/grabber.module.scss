@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat+Alternates&display=swap');
+
 .container {
   display: flex;
   flex-direction: column;
@@ -13,6 +15,7 @@
     top: 5vh;
   }
   .title {
+    // font-family: 'Montserrat Alternates', sans-serif;
     font-size: 3.25vw;
     margin-bottom: 5vh;
   }

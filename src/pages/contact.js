@@ -4,7 +4,7 @@ import contactStyles from './contact.module.scss'
 const Contact = () => {
 
   return (
-    <div className={contactStyles.container}>
+    <div id='contact' className={contactStyles.container}>
       <div className={contactStyles.img} />
       <div className={contactStyles.formWrapper}>
         <form className={contactStyles.form} name="contact" action="" id="contactMe" method="POST" data-netlify="true">

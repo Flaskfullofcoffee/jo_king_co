@@ -4,7 +4,7 @@ import aboutStyles from './about.module.scss'
 const About = () => {
 
   return (
-    <div className={aboutStyles.container}>
+    <div id='about' className={aboutStyles.container}>
       <div className={aboutStyles.leftContent}>
         <h2 className={aboutStyles.title}>What I Do?</h2>
         <div className={aboutStyles.tiltedBox}>

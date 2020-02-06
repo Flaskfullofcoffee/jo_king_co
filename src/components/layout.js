@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "./header"
-import LandingPage from './landingPage'
+import LandingPage from '../pages/landingPage'
 import Footer from "./footer"
 import layoutStyles from './layout.module.scss'
 
