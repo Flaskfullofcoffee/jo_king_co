@@ -1,7 +1,7 @@
 .container {
   height: 100vh;
   width: auto;
-  background: aquamarine;
+  background: #192738;
   display: flex;
   flex-direction: row;
   .img, .formWrapper {
@@ -14,26 +14,31 @@
     background-repeat: no-repeat;
   }
   .formWrapper {
-    background-color: indigo;
+    background-color: inherit;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     .form {
-      border: 1px solid #000;
+      border: 1px solid #e74f6e;
       height: auto;
       width: 80%;
-      padding-bottom: 12vh;
+      padding: 3vh;
+      // padding-bottom: 4vh;
       text-align: center;
       .title {
+        font-family: 'Lobster', cursive;
         font-size: 3.25vw;
         margin: 1.5vh 0;
+        color: #e74f6e;
       }
       .who {
         .name, .email {
           position: relative;
+          font-family: 'Montserrat Alternates', sans-serif;
           font-size: 2.25vw;
-          margin: 2.5vh 0;
+          color: #e74f6e;
+          margin: 2vh 0;
         }
         .name, .email {
           display: block;
@@ -43,13 +48,13 @@
         #email {
           width: 81.5%;
           margin: 0 1.5vw;
-          padding: 1vh;
+          padding: 2vh;
           border-radius: .5vw;
         }
         .user_input {
           width: 35%;
           margin: 0 1.5vw;
-          padding: 1vh;
+          padding: 2vh;
           border-radius: .5vw;
           border-style: none;
         }
@@ -62,15 +67,34 @@
           display: block;
           text-align: left;
           position: relative;
+          font-family: 'Montserrat Alternates', sans-serif;
           font-size: 2.25vw;
+          color: #e74f6e;
           margin: 2.5vh 0;
           margin-left: 7%;
         }
         .input_field {
           width: 81.5%;
           margin: 0 1.5vw;
-          padding: 1vh;
+          padding: 2vh;
           border-radius: .5vw;
+        }
+      }
+      .btnField {
+        .submit_btn {
+          margin-top: 4vh;
+          padding: 1% 2.25%;
+          border-radius: 5vw;
+          border-style: none;
+          font-family: 'Lobster', cursive;
+          font-size: 2.25vw;
+          background: #e74f6e;
+          color: #192738;
+          &:hover {
+            color: #e74f6e;
+            background: #192738;
+            border: 1px solid #e74f6e;
+          }
         }
       }
     }
