@@ -37,7 +37,7 @@
     background-color: #192738;
     height: auto;
     width: 50%;
-    left: -26.5vh;
+    left: -26.35vh;
     top: 91%;
     position: absolute;
     overflow: hidden;
@@ -97,6 +97,11 @@
       font-size: 2.25vw;
       color: #fff;
       background-color: #192738;
+      &:hover {
+        color: #192738;
+        background: #fff;
+        border: 1.5px solid #192738;
+      }
     }
   }
 }

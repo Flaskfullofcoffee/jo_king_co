@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat+Alternates&display=swap');
 
 .container {
-  background-image: url('../images/succulant.jpg');
+  background-image: url('../images/succit.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -12,7 +12,7 @@
   .grabber {
     position: absolute;
     top: 15vh;
-    left: 60vw;
+    left: 65vw;
     height: auto;
     width: 30%;
     // min-width: 40vh;
@@ -21,7 +21,7 @@
       font-family: 'Lobster', cursive;
       font-size: 4vw;
       margin-bottom: 1.5vh;
-      color: #fff;
+      color: #000;
       letter-spacing: 3px;
       // text-transform: uppercase;
     }
@@ -29,7 +29,7 @@
       font-family: 'Montserrat Alternates', sans-serif;
       font-size: 1.5vw;
       padding: .75vw;
-      color: #fff;
+      color: #000;
     }
     .link {
       display: none;

@@ -7,7 +7,7 @@ const Services = () => {
     <div className={servicesStyles.container}>
       <div id='services' className={servicesStyles.header}>
         <h2 className={servicesStyles.title}>Monthly services</h2>
-        <p className={servicesStyles.subtext}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p className={servicesStyles.subtext}>Whether you only need one thing or are ready to relinquish it all, our build your own plans means there is something for everyone.</p>
         <hr className={servicesStyles.detail}/>
       </div>
       <div className={servicesStyles.illustration}>

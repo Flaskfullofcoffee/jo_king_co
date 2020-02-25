@@ -9,7 +9,9 @@
     width: 50%;
   }
   .img {
-    background-color: cadetblue;
+    background-image: url('../images/winston.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .formWrapper {
     background-color: indigo;

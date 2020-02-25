@@ -36,6 +36,11 @@
       font-size: 2.25vw;
       background: #e74f6e;
       color: #192738;
+      &:hover {
+        color: #e74f6e;
+        background: #192738;
+        border: 1.5px solid #e74f6e;
+      }
     }
   }
 }
