@@ -21,7 +21,7 @@
       font-family: 'Lobster', cursive;
       font-size: 4vw;
       margin-bottom: 1.5vh;
-      color: #000;
+      color: #192738;
       letter-spacing: 3px;
       // text-transform: uppercase;
     }
@@ -29,7 +29,7 @@
       font-family: 'Montserrat Alternates', sans-serif;
       font-size: 1.5vw;
       padding: .75vw;
-      color: #000;
+      color: #192738;
     }
     .link {
       display: none;
@@ -46,17 +46,32 @@
 
 
 /* Media-queries Section */
+@media (max-width: 768px) {
+  .container {
+    background-position: 75% 25%;
+    .grabber {
+      .title {
+        font-size: 2rem;
+      }
+      .subtext {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
 
 @media (max-width: 575.98px) {
   .container {
     position: relative;
     width: 100%;
     z-index: 1;
+    background-position: left;
     .grabber {
       width: 50%;
       left: 45vw;
       .title {
         font-size: 1.5rem;
+        color: red;
       }
       .subtext {
         font-size: 1rem;

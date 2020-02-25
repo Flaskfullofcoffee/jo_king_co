@@ -109,6 +109,29 @@
 
 
 /* Media-queries Section */
+@media (max-width: 768px) {
+  .container {
+    .leftContent {
+      .title {
+        font-size: 1.5rem;
+      }
+      .tiltedBox {
+        transform: rotate(35deg);
+        height: 40vh;
+        left: -13.75vh;
+        top: 97.5%;
+        .illustration {
+          width: 120%;
+          top: 0vh;
+          left: 25%;
+        }
+      }
+    }
+    .rightContent {
+
+    }
+  }
+}
 
 @media (max-width: 575.98px) {
   .container {

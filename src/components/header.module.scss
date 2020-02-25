@@ -56,8 +56,21 @@ header {
 
 
 /* Media-queries Section */
+@media (max-width: 768px) {
+  header {
+    .logo {
+      top: -15vh;
+    }
+    .nav {
+      .listItem {
+        font-size: 1.5rem;
+        margin: 1vh 0;
+      }
+    }
+  }
+}
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
   header {
     display: none;
     // position: fixed;
