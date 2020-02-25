@@ -71,6 +71,8 @@
 /* Media-queries Section */
 @media (max-width: 768px) {
   .container {
+    height: 55vh;
+    // overflow: hidden;
     .header {
       overflow: hidden;
       .title {
@@ -83,6 +85,13 @@
       }
       .detail {
         top: -10.5vh;
+      }
+    }
+    .illustration {
+      width: 112%;
+      top: 0vh;
+      .object {
+        background-size: contain;
       }
     }
   }
