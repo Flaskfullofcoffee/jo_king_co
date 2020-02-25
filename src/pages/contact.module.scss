@@ -103,6 +103,44 @@
 
 
 /* Media-queries Section */
+@media (max-width: 768px) {
+  .container {
+    height: 120vh;
+    flex-direction: column;
+    .img, .formWrapper {
+      height: 50%;
+      width: 100%;
+    }
+    .img {
+      background-position: 25% 52%;
+    }
+    .formWrapper {
+      .form {
+        position: relative;
+        top: 0vh;
+        height: 45vh;
+        .title {
+          font-size: 2.25rem;
+          margin: -1.5vh;
+        }
+        .who {
+
+        }
+        .comments {
+          .input_field {
+            height: 5vh;
+          }
+        }
+        .btnField {
+          .submit_btn {
+            margin-top: 2vh;
+            font-size: 1.25rem;
+          }
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 575.98px) {
   .container {
