@@ -111,9 +111,10 @@
 /* Media-queries Section */
 @media (max-width: 768px) {
   .container {
+    height: 50vh;
     .leftContent {
       .title {
-        font-size: 1.5rem;
+        font-size: 2.25rem;
       }
       .tiltedBox {
         transform: rotate(35deg);
@@ -128,7 +129,15 @@
       }
     }
     .rightContent {
-
+      .content {
+        .title {
+          font-size: 2.25rem;
+        }
+        .link {
+          margin-top: -0.5vh;
+          font-size: 1.25rem;
+        }
+      }
     }
   }
 }
