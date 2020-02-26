@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <p>Created by Zachary Dobbs, © 2019</p>
+      <p>© Copyright 2019.  JoKing&Co</p>
     </footer>
   )
 }

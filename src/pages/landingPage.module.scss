@@ -85,7 +85,7 @@
       // align-self: center;
     }
     .navigation {
-      visibility: visible;
+      // visibility: visible;
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -109,7 +109,7 @@
     }
     .grabber {
       width: 50%;
-      top: 22vh;
+      top: 24vh;
       left: 6vw;
       .title {
         font-size: 2rem;
