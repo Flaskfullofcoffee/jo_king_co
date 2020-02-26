@@ -144,6 +144,7 @@
 
 @media (max-width: 575.98px) {
   .container {
+    height: 110vh;
     flex-direction: column;
     .img, .formWrapper {
       width: 100%;
@@ -152,7 +153,28 @@
       height: 25%;
     }
     .formWrapper {
-      height: 75%;
+      height: 52%;
+      overflow: hidden;
+      .form {
+        border: none;
+        width: 100%;
+        padding: 0;
+        .who {
+          .name, .email {
+            font-size: 1rem;
+          }
+        }
+        .comments {
+          .message {
+            font-size: 1rem;
+          }
+        }
+        .btnField {
+          .submit_btn {
+            font-size: 1.5rem;
+          }
+        }
+      }
     }
   }
 }
