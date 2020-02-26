@@ -12,6 +12,9 @@
   .logo {
     display: none;
   }
+  .navigation {
+    visibility: hidden;
+  }
   .grabber {
     position: absolute;
     top: 15vh;
@@ -63,7 +66,7 @@
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
   .container {
     position: relative;
     width: 100%;
@@ -80,6 +83,29 @@
       height: 12vh;
       width: 33vw;
       // align-self: center;
+    }
+    .navigation {
+      visibility: visible;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      position: fixed;
+      height: 10vh;
+      width: 100%;
+      top: 75%;
+      background-color: #192738;
+      opacity: .9;
+      z-index: 9;
+      .link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.25rem;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin: 0 3vw;
+      }
     }
     .grabber {
       width: 50%;
