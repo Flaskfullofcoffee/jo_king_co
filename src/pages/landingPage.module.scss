@@ -9,6 +9,9 @@
   z-index: 8;
   left: 0%;
   position: relative;
+  .logo {
+    display: none;
+  }
   .grabber {
     position: absolute;
     top: 15vh;
@@ -65,13 +68,25 @@
     position: relative;
     width: 100%;
     z-index: 1;
-    background-position: left;
+    background-position: 75% 25%;
+    .logo {
+      display: inline-block;
+      background-image: url('../images/Jo_logo_min.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 1vh;
+      right: 3vw;
+      height: 12vh;
+      width: 33vw;
+      // align-self: center;
+    }
     .grabber {
       width: 50%;
-      left: 45vw;
+      top: 22vh;
+      left: 6vw;
       .title {
-        font-size: 1.5rem;
-        color: red;
+        font-size: 2rem;
       }
       .subtext {
         font-size: 1rem;
