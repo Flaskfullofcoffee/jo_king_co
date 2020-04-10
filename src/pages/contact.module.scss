@@ -108,26 +108,31 @@
 /* Media-queries Section */
 @media (max-width: 768px) {
   .container {
-    height: 120vh;
+    height: 150vh;
     flex-direction: column;
     .img, .formWrapper {
       height: 50%;
       width: 100%;
     }
     .img {
-      background-position: 25% 52%;
+      background-position: 25% 48%;
     }
     .formWrapper {
       .form {
         position: relative;
         top: 0vh;
-        height: 45vh;
+        height: 57vh;
         .title {
           font-size: 2.25rem;
           margin: -1.5vh;
         }
         .who {
-
+          .firstLast {
+            justify-content: center;
+            .user_input {
+              margin: 0 2.5vw;
+            }
+          }
         }
         .comments {
           .input_field {
