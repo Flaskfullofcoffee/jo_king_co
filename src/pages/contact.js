@@ -12,8 +12,10 @@ const Contact = () => {
           <div className={contactStyles.who}>
             <div>
               <label className={contactStyles.name} for="name">Name:</label>
-              <input type="text" id="firstName" name="user_name" placeholder="First" className={contactStyles.user_input} required />
-              <input type="text" id="lastName" name="user_name" placeholder="Last" className={contactStyles.user_input} required />
+              <div className={contactStyles.firstLast}>
+                <input type="text" id="firstName" name="user_name" placeholder="First" className={contactStyles.user_input} required />
+                <input type="text" id="lastName" name="user_name" placeholder="Last" className={contactStyles.user_input} required />
+              </div>
             </div>
             <div>
               <label className={contactStyles.email} for="email">Email:</label>

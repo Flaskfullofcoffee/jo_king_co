@@ -111,20 +111,20 @@
 /* Media-queries Section */
 @media (max-width: 768px) {
   .container {
-    height: 50vh;
+    height: 70vh;
     .leftContent {
       .title {
         font-size: 2.25rem;
       }
       .tiltedBox {
         transform: rotate(35deg);
-        height: 40vh;
-        left: -13.75vh;
+        height: 55vh;
+        left: -16.25vh;
         top: 97.5%;
         .illustration {
           width: 120%;
-          top: 0vh;
-          left: 25%;
+          top: 2vh;
+          left: 12%;
         }
       }
     }
