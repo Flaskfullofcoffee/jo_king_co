@@ -160,7 +160,7 @@
         margin-top: -1vh;
       }
       .tiltedBox {
-        height: 30vh;
+        height: 40vh;
         width: 45%;
         left: -8vh;
         top: -5vh;
@@ -168,7 +168,12 @@
         overflow: hidden;
         border-radius: 1.25vw;
         padding-left: 10vh;
+        transform: rotate(0deg);
         .illustration {
+          top: 8vh;
+          left: -4vw;
+          width: 137%;
+          transform: rotate(0deg);
           .object {
             width: 80%;
             top: 7vh;
@@ -180,7 +185,7 @@
 
       .content {
         position: absolute;
-        top: 11vh;
+        top: 6vh;
         left: 55vw;
         width: 45vw;
         border-radius: 2vw;

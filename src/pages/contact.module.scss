@@ -152,13 +152,13 @@
 
 @media (max-width: 575.98px) {
   .container {
-    height: 85vh;
+    height: 100vh;
     flex-direction: column;
     .img, .formWrapper {
       width: 100%;
     }
     .img {
-      height: 35vh;
+      height: 40vh;
     }
     .formWrapper {
       height: 70vh;
@@ -167,7 +167,7 @@
         border: none;
         width: 100%;
         padding: 0;
-        top: -2vh;
+        top: 0vh;
         .who {
           .name, .email {
             font-size: 1rem;

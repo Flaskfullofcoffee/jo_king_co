@@ -107,11 +107,16 @@
 
 @media (max-width: 575.98px) {
   .container {
+    height: 60vh;
     .header {
+      position: relative;
+      top: 6vh;
       .title {
         font-size: 1.5rem;
         width: 50vw;
         z-index: 8;
+        margin-top: 0vh;
+        background: inherit;
       }
       .subtext {
         font-size: 1rem;
@@ -130,7 +135,7 @@
       flex-direction: row;
       justify-content: center;
       position: relative;
-      top: 8vh;
+      top: 10vh;
       .list_1, .list_2 {
         list-style: inside;
         margin: 0 4vw;
